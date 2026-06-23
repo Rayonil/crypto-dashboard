@@ -2,7 +2,7 @@
 
 An interactive Bitcoin technical analysis dashboard built with Plotly Dash. Visualize price history, trading volume, and key technical indicators through a clean dark-themed interface.
 
-**Live demo:** [crypto-dashboard on Render](https://crypto-dashboard-xxxx.onrender.com)
+**Live demo:** [crypto-dashboard on Render](https://crypto-dashboard-rp3n.onrender.com)
 
 ---
 
