@@ -1,0 +1,150 @@
+/* ── Sidebar ─────────────────────────────────────────────────────────── */
+#sidebar {
+    background-color: #14142a;
+    min-height: 100vh;
+    padding: 20px 16px;
+    border-right: 1px solid #2a2a44;
+    overflow-y: auto;
+}
+
+/* ── Main panel ──────────────────────────────────────────────────────── */
+#main-panel {
+    background-color: #1e1e36;
+    min-height: 100vh;
+    padding: 16px 20px;
+}
+
+/* ── Bitcoin title ───────────────────────────────────────────────────── */
+.btc-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.btc-icon {
+    font-size: 1.7rem;
+    color: #F7931A;
+    line-height: 1;
+    margin-right: 6px;
+}
+
+.btc-title-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #e8e8f8;
+}
+
+.dashboard-subtitle {
+    font-size: 0.73rem;
+    color: #6666aa;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* ── Sidebar section labels ──────────────────────────────────────────── */
+.sidebar-section-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7777aa;
+    margin-top: 18px;
+    margin-bottom: 7px;
+}
+
+/* ── Quick period buttons ────────────────────────────────────────────── */
+.period-btn {
+    font-size: 0.76rem;
+    padding: 2px 7px;
+}
+
+/* ── Stats row ───────────────────────────────────────────────────────── */
+.stats-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.stats-card {
+    background-color: #252540;
+    border: 1px solid #35355a;
+    border-radius: 8px;
+    padding: 10px 14px;
+    min-width: 110px;
+    flex: 1 1 auto;
+}
+
+.stat-label {
+    font-size: 0.67rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #7777aa;
+    margin-bottom: 4px;
+}
+
+.stat-value {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #e0e0f0;
+    white-space: nowrap;
+}
+
+.stat-positive {
+    color: #44dd88 !important;
+}
+
+.stat-negative {
+    color: #ff5566 !important;
+}
+
+.stat-neutral {
+    color: #e0e0f0;
+}
+
+/* ── Graph cards ─────────────────────────────────────────────────────── */
+.graph-card {
+    background-color: #252540;
+    border: 1px solid #35355a;
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+/* ── DatePickerRange dark theme fix ──────────────────────────────────── */
+.DateInput_input {
+    background-color: #252540 !important;
+    color: #e0e0f0 !important;
+    border-bottom: 1px solid #4a4a6a !important;
+    font-size: 0.83rem !important;
+}
+
+.DateRangePickerInput {
+    background-color: #252540 !important;
+    border: 1px solid #35355a !important;
+    border-radius: 4px;
+}
+
+.DateRangePickerInput__withBorder {
+    border-color: #35355a !important;
+}
+
+/* ── Checklist & radio labels ────────────────────────────────────────── */
+.form-check-label {
+    font-size: 0.88rem;
+    cursor: pointer;
+    color: #c0c0e0;
+}
+
+/* ── Last update & refresh ───────────────────────────────────────────── */
+.last-update-label {
+    font-size: 0.7rem;
+    color: #555588;
+    margin: 0;
+}
+
+/* ── Transparent chart backgrounds ──────────────────────────────────── */
+.dash-graph .js-plotly-plot .plotly .bg {
+    fill: transparent !important;
+}
